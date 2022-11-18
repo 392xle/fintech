@@ -1,0 +1,529 @@
+/*fonts setup*/
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,400&display=swap');
+/*color setup*/
+:root{
+    --primary: #3155e7;
+    --blue: #003CD2; 
+    --black: #010101;
+    --blue-2: #0133B6;
+    ---blue-3: #E3E9F7;
+    --white: #ffffff;
+    --body: #fefefe;
+}
+/*body*/
+body{
+    font-family: 'Plus Jakarta sans' , sans-serif;
+    
+    
+}
+/* button*/
+.btn{
+    border-radius: 8px;
+}
+
+.btn-outline-secondary{
+    padding: 12px 20px;
+}
+
+
+.btn-outline-secondary{
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+}
+.btn-outline-secondary2{
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+}
+.btn-outline-secondary:hover {
+    background-color: var(--gray-2);
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+    
+}
+
+.btn-outline-secondary2:hover {
+    background-color: var(--gray-2);
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+    
+}
+
+.btn-outline-secondary:focus {
+    background-color: var(--gray-2);
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+}
+.btn-outline-secondary2:focus {
+    background-color: var(--gray-2);
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+}
+
+/*Navbar*/
+.navbar .btn-outline-secondary{
+    border: 1px solid var(--blue);
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 16x;
+    margin: 1%;
+    
+    
+}
+.navbar .btn-outline-secondary2{
+    border: 1px solid var(--blue);
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 16x;
+    margin: 1%;
+    height: 40px;
+}
+.navbar {
+    padding-top: 32px 0;
+}
+.nav-link {
+    margin-left: 41px;
+    font-size: 16px;
+    color: var(--gray-1);
+}
+.navbar-nav{
+    padding-left: 15%;
+    padding-right: 12%;
+}
+.navbar-nav .nav-link.active{
+    font-weight: bold;
+    color: var(--black);
+}
+h5{
+Font-family: serif;
+Font-style: Bold;
+font-style: 700;
+color: blue;
+}
+/*Hero section*/
+section.screen{
+    padding: 10px 0;
+}
+section.screen .text{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 73px;
+    color: var(--blue-2);
+}
+section.screen-3{
+    padding: 10px 0;
+    margin-top: 50px;
+}
+section.screen-3 .text{
+    padding-top: 40%;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 73px;
+    color: var(--blue-2);
+}
+.buttons{
+    padding-top: 69px;
+}
+.buttons .btn{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+section.screen .screen-1{
+    height: 700px;
+    padding-left: 80px;
+    
+}
+p{
+    font-size: 15px;
+    padding-top: 5%;
+    font-weight: 700;
+    font-size: 20px;
+}
+.appstore,
+.playstore{
+    padding: 2%;
+    width:35%;
+}
+section.cards{
+    background-image: url("C:\Users\392_XLE\Desktop\fintech\images\ellipse\light ellipse.svg");
+    background-color: #E3E9F7;
+    height: 350px;
+    
+    width: 99%;
+}
+.card-1{
+    position: absolute;
+    top: 123%;
+    left: 8%;
+   
+    z-index: 1;
+}
+.card-2{
+    position: absolute;
+    top: 135%;
+    left: 8%;
+   
+    z-index: 2;
+}
+.text h5{
+    font-size: 50px;
+    padding-top: 5%;
+   font-family: Arial, Helvetica, sans-serif;
+   
+    font-weight: 500;
+}
+.text p{
+    font-size: 15px;
+    padding-bottom: 2%;
+    font-weight: 700;
+}
+.read{
+height: 50px;
+text-decoration: none;
+background-color: var(--blue-2);
+color: #ffffff;
+padding: 2%;
+border-radius: 5px;
+
+ 
+}
+/*Setup*/
+section.setup{
+    padding-top:2% ;
+    background-color: white;
+
+
+}
+
+section.setup .icons{
+    padding: 27px 0;
+}
+section.setup h5{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--black);
+    padding-bottom: 18px;
+}
+section.setup .desc p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: var(--gray-1);
+    max-width: 284px;
+    margin: 0 auto;
+
+}
+section.information .text-information {
+padding: 134px 0;
+}
+section.information h5{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--black);
+}
+section.information p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: var(--gray-1);
+    padding-top: 20px;
+}
+section.information .info-1 {
+    padding: 183px 0;
+}
+.phone-1{
+     position: absolute;
+        top: 107%;
+        left: 70%;
+       
+        z-index: 1;
+}
+.phone-2{
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    
+    z-index: 2;
+}
+.phone-3{
+    position: absolute;
+    top: 63%;
+    left: 78%;
+   
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+/*Second screen*/
+section .screen2{
+   padding-top: 10px 0;
+}
+section.screen2 .text-2{
+    font-weight: 800;
+    font-size: 48px;
+    padding-top: 50%;
+    line-height: 73px;
+    color: var(--blue-2);
+}
+section.screen2 .screen-2{
+    margin-top: 20%;
+    height: 700px;
+    padding-left: 40px;
+    
+}
+p{
+    font-size: 15px;
+    padding-top: 5%;
+    font-weight: 700;
+    font-size: 20px;
+}
+.appstore2,
+.playstore2{
+    padding: 5%;
+    width:35%;
+}
+/*card3*/
+section.cards-2{
+    background-image: url("C:\Users\392_XLE\Desktop\fintech\images\ellipse\light ellipse.svg");
+    background-color: #E3E9F7;
+    height: 400px;
+    
+    width: 99%;
+}
+ .card3{
+   padding: 70px;
+   height: 450px;
+}
+/*form*/
+section.form .text h5{
+    padding-top: 30%;
+}
+section.form .card4{
+    height: 700px;
+    width: 100%;
+    padding-left: 8px;
+    margin-top: 100px;
+}
+/*lastscreen*/
+section.screen .text{
+    padding-top: 25%;
+    font-size: 40px;
+    background-image: url('C:\Users\392_XLE\Desktop\fintech\images\ellipse\light ellipse.svg');
+}
+section.screen .text p{
+    padding-top: 25%;
+}
+/*Footer*/
+.footer{
+    background-color: rgb(63, 161, 241);
+    padding: 70px 0;
+    height: fit-content;
+   }
+   .row{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   ul{
+    list-style: none;
+   }
+   .footer-col{
+    width: 25%;
+    padding: 0 15px;
+   }
+   .footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+   }
+   .footer-col h4::before{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: white;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+   }
+   .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+   }
+   .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 300;
+    color: white;
+    display: block;
+    transition: all 0.3s ease;
+    text-decoration: none;
+   }
+   .footer-col ul li a:hover{
+    color: #fff;
+    padding-left: 8px;
+   }
+   .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255, 0.2);
+    margin-right: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s easy;
+   }
+   .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  
+   }
+  
+
+
+@media(max-width: 574px){
+    section.screen .text{
+       padding-top: 10px;
+    }
+    section.screen .screen-1{
+margin-left: -4%;
+    }
+    .phone-1{
+        position: absolute;
+           top: 182%;
+           left: 56%;
+          width: 40%;
+           z-index: 1;
+   }
+   .phone-2{
+       position: absolute;
+       top: 135%;
+       left: 2%;
+       width: 40%;
+       z-index: 2;
+   }
+   .phone-3{
+       position: absolute;
+       top: 133%;
+       left: 60%;
+      width: 40%;
+       z-index: 1;
+   }
+   section.cards .text{
+    margin-top: 270px;
+   }
+   section.cards .text h5{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 2%;
+   }
+   section.cards .text p{
+    font-size: 20px;
+    
+    padding: 2%;
+   }
+   section.cards{
+    background-image: url("C:\Users\392_XLE\Desktop\fintech\images\ellipse\light ellipse.svg");
+    background-color: #E3E9F7;
+    height: 600px;
+    width: 100%;
+}
+   .card-1{
+    position: absolute;
+    top: 200%;
+    left: 15%;
+   width: 60%;
+    z-index: 1;
+}
+.card-2{
+    position: absolute;
+    top: 210%;
+    left: 15%;
+    width: 60%;
+    z-index: 2;
+}
+
+section.screen2{
+    margin-top: 5%;
+}
+section.screen2 .screen-2{
+  top: 2%;
+    height: 450px;
+    padding-left: 40px;
+    width: 100%;
+    
+}
+/*Crds-2*/
+section.cards-2{
+    background-image: url("C:\Users\392_XLE\Desktop\fintech\images\ellipse\light ellipse.svg");
+    background-color: #E3E9F7;
+    height: 800px;
+    
+    width: 100%;
+}
+section.cards-2 h5{
+    font-size: 35px;
+    font-style: bolder;
+    padding: 2%;
+}
+section.cards-2 p{
+    font-size: 20px;
+    
+    padding: 2%;
+}
+ .card3{
+   padding: 70px;
+   height: 400px;
+   margin-left: 3%;
+}
+.appstore2,
+.playstore2{
+    padding: 5%;
+    width:35%;
+    margin-left: 6%;
+    
+}
+section.form .text{
+    background-image: url("C:\Users\392_XLE\Desktop\fintech\images\ellipse\light ellipse.svg");
+    background-color: #E3E9F7;
+    height: 520px;
+    width: 100%;
+    padding-bottom: 0px;
+}
+section.form h5{
+    padding: 2%;
+}
+section.form p{
+padding: 2%;
+}
+
+/**/
+section.screen-3{
+    padding-top: 2px;
+}
+section.screen-3 .big{
+    padding-top: 2%;
+    height: 500px;
+    width: 90%;
+    padding-left: 10%;
+}
+
+}
